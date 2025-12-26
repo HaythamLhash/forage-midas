@@ -1,48 +1,44 @@
 # forage-midas
 
-> Project repository for the **JPMC Advanced Software Engineering Forage program**  
-> Forked from the official starter: *vagabond-systems/forage-midas*
+## Overview
+
+This repository contains the implementation for the **JPMC Advanced Software Engineering – MIDAS** project.  
+It is based on the official Forage starter project and implements a backend service using Java and Spring Boot.
+
+The project simulates components commonly found in financial systems and is intended to demonstrate backend development, configuration, and testing practices.
 
 ---
 
-## 🧠 About
+## Project Objectives
 
-This project implements the **MIDAS Core Simulation** as part of the **JPMC Advanced Software Engineering** virtual experience.
-
-It simulates backend services commonly found in financial systems and is built using **Java** and **Spring Boot**.
-
----
-
-## 🎯 Project Goals
-
-- Implement a backend service based on a real-world finance use case
-- Demonstrate software engineering best practices
-- Complete the required Forage program tasks
-- Gain experience with Java, Maven, and Spring Boot
+- Implement a backend service following enterprise-style architecture
+- Apply Java and Spring Boot in a real-world style project
+- Complete the technical requirements of the JPMC Forage program
+- Demonstrate clean structure, configuration, and build practices
 
 ---
 
-## 🚀 Features
+## Technologies Used
 
-- Java-based backend application  
-- Spring Boot framework  
-- Maven build system  
-- Configurable via `application.yml`  
-- Designed for extensibility and testing  
+- Java (JDK 11+)
+- Spring Boot
+- Maven
+- YAML configuration
+- Git
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 
-Make sure the following are installed:
+Ensure the following are installed before running the project:
 
-- Java JDK **11 or newer**
+- Java JDK 11 or later
 - Maven
 - Git
 
 ---
 
-## 📦 Running the Project
+## Running the Project
 
 Clone the repository:
 
@@ -65,35 +61,32 @@ mvn spring-boot:run
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | Path | Description |
 |------|-------------|
-| `src/` | Java source files |
-| `src/main/java` | Application logic |
+| `src/main/java` | Application source code |
 | `src/test/java` | Unit tests |
+| `src/main/resources` | Configuration files |
 | `application.yml` | Application configuration |
-| `pom.xml` | Maven configuration |
-| `.mvn/`, `mvnw` | Maven wrapper files |
+| `pom.xml` | Maven build configuration |
+| `.mvn/` | Maven wrapper files |
 
 ---
 
-## ⚙ Configuration
+## Configuration
 
-All configuration is handled via:
+Application settings are defined in:
 
 ```
 src/main/resources/application.yml
 ```
 
-You can modify settings such as:
-- Server port
-- Service options
-- Environment values
+This file controls runtime configuration such as server settings and application options.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run all tests using:
 
@@ -103,13 +96,13 @@ mvn test
 
 ---
 
-## 📌 Notes
+## Notes
 
-This repository is based on the official JPMC Forage MIDAS starter project.  
-Additional functionality should be implemented as required by the Forage tasks.
+This repository follows the structure and requirements of the JPMC Forage MIDAS project.  
+Additional functionality can be implemented as required by the assignment or extended for learning purposes.
 
 ---
 
-## 📜 License
+## License
 
-This project follows the licensing terms of the original Forage starter repository.
+This project follows the same license terms as the original Forage starter repository.
